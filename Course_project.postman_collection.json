@@ -292,7 +292,7 @@
 						"exec": [
 							"console.log(\"Creating second list\")",
 							"var folderID = pm.collectionVariables.get(\"Folder_ID\");",
-							"// (async () => {  ",
+							" (async () => {  ",
 							"    try {",
 							"        const response = await pm.sendRequest({",
 							"            url: `https://api.clickup.com/api/v2/folder/${folderID}/list`,",
@@ -319,7 +319,7 @@
 							"    } catch (err) {",
 							"        console.error(err);",
 							"    }",
-							"// });"
+							" });"
 						],
 						"type": "text/javascript",
 						"packages": {}
